@@ -1,0 +1,161 @@
+.container {
+    background: linear-gradient(to bottom, rgb(24, 0, 29), rgb(131, 31, 156));
+    width: 700px;
+    height: 700px;
+    border-radius: 1%;
+    padding: 20px;
+    margin: auto;
+}
+
+.title {
+    color: rgb(255, 251, 0);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.text {
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.datadiv {
+    background: linear-gradient(to bottom, rgb(131, 31, 156), rgb(24, 0, 29));
+    width: 680px;
+    height: 490px;
+    border-radius: 1%;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.datatitle {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 0px;
+}
+
+input {
+    width: 500px;
+    height: 15px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.category-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    margin-top: 80px;
+}
+
+.category {
+    background: linear-gradient(to bottom,  rgb(86, 31, 234), rgb(36, 129, 204));
+    width: 180px;
+    height: 250px;
+    border-radius: 2%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.category-text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5%;
+    text-align: center;
+    font-size: 15px;
+}
+
+img{
+    width: 120px;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .datadiv {
+        width: 95%;
+        height: auto;
+    }
+
+    input {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .category-container {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .category {
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+        padding: 15px 0;
+    }
+
+    .category-text {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .datatitle {
+        font-size: 18px;
+    }
+
+    button {
+        width: 80px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    img {
+        width: 100px;
+    }
+}
